@@ -23,7 +23,7 @@ struct ContentView: View {
                 VStack(alignment: .leading) {
                     Text(user.name)
                         .font(.headline)
-                        .foregroundColor(Color("skyBlue"))
+                        .foregroundColor(Color.blue)
                     Text(user.username)
                         .font(.body)
                         .foregroundColor(.secondary)
